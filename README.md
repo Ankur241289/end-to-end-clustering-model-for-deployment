@@ -183,9 +183,3 @@ Acknowledgements
 ----------------
 - Built with Python and Jupyter
 - Inspired by common production ML workflows and clustering best practices
-
-Final notes
------------
-If you want, I can:
-- Tailor the README to exactly match the filenames and notebooks in this repo (I can scan the repository and update the file paths and commands)
-- Add badges, sample visual examples, or a short “one-page executive summary” section for stakeholders
