@@ -172,12 +172,11 @@ Contributions are welcome! Suggested workflow:
 
 Please follow the code style in the repo and add descriptive commit messages.
 
-License & Contact
+Contact
 -----------------
-This repository is released under the [MIT License](LICENSE) — change as needed.
 
 Maintainer: Ankur241289  
-Email: (add your contact email)  
+Email: ankursingh@outlook.com  
 GitHub: https://github.com/Ankur241289
 
 Acknowledgements
