@@ -3,7 +3,7 @@
 This repository demonstrates **how a Machine Learning project can move beyond Jupyter notebooks** into a **structured, reusable, and deployable application**.
 
 The goal of this project is **not** to build a highly complex model.
-The goal is to make the **end-to-end ML workflow clear and usable**, especially for people who are learning Data Science and feel stuck after training models in notebooks.
+The goal is to make the **end-to-end ML workflow clear and usable**, especially for people who are learning Data Science and feel stuck after training models in notebooks. Hence this project has been kept very simple deliberately.
 
 This project intentionally focuses on:
 
