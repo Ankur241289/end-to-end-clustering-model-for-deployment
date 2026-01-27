@@ -1,1 +1,1 @@
-gunicorn application:app
+gunicorn application:application
