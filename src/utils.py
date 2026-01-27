@@ -1,3 +1,4 @@
+from copyreg import pickle
 import os
 import sys
 from catboost import CatBoostRegressor
@@ -54,8 +55,19 @@ def evaluate_model(X_train, y_train, X_test, y_test, models:dict, param:dict):
                 # Replace unfitted model with fitted best_model
                 models[name] = best_model
 
+            return report
+        
         except Exception as e:
             raise CustomException(e, sys)
 
-    return report
+    
+
+def load_object(file_path):
+    try:
+        with open(file_path, "rb") as file_obj:
+            return dill.load(file_obj)
+
+    except Exception as e:
+        raise CustomException(e, sys)
+
 
