@@ -1,0 +1,38 @@
+:root{
+  --primary:#0d6efd;
+  --muted:#6c757d;
+  --bg:#f8f9fa;
+  --card:#ffffff;
+  --accent:#0b5ed7;
+  font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+body.bg-light {
+  background-color: var(--bg);
+}
+
+.bg-gradient {
+  background: linear-gradient(180deg, #f8fbff 0%, #ffffff 100%);
+}
+
+.navbar-brand {
+  color: var(--accent);
+  font-size: 1.15rem;
+}
+
+.card {
+  border-radius: 0.6rem;
+}
+
+.display-4 {
+  font-size: 2.5rem;
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+
+footer {
+  border-top: 1px solid rgba(0,0,0,0.04);
+}
